@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocConnect - Book Appointment</title>
+    <!-- Link to the CSS stylesheet -->
+    <link rel="stylesheet" href="C:\Users\Rakshit_PC\OneDrive\Desktop\college\sytle10.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>DocConnect</h1>
+        <nav>
+            <a href="C:\Users\Rakshit_PC\OneDrive\Desktop\college\index1.html">Home &nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                <a href="C:\Users\Rakshit_PC\OneDrive\Desktop\college\video.html">Video Call &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="C:\Users\Rakshit_PC\OneDrive\Desktop\college\medicine.html">Medicine</a>
+
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <section class="appointment">
+            <h2>Book Appointment</h2>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br >
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div><br>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div><br>
+                <div>
+                    <label for="specialty">Specialty</label>
+                    <select id="specialty" name="specialty" required>
+                        <option value="" selected disabled>Select a specialty</option>
+                        <option value="cardiologist">Cardiologist</option>
+                        <option value="dermatologist">Dermatologist</option>
+                        <option value="endocrinologist">Endocrinologist</option>
+                        <option value="gastroenterologist">Gastroenterologist</option>
+                        <option value="neurologist">Neurologist</option>
+                        <option value="oncologist">Oncologist</option>
+                        <option value="pediatrician">Pediatrician</option>
+                        <option value="psychiatrist">Psychiatrist</option>
+                        <option value="pulmonologist">Pulmonologist</option>
+                        <option value="urologist">Urologist</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div><br>
+                <div>
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div><br>
+                <div>
+                    <input type="submit" value="Book Appointment">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; DocConnect 2023. All rights reserved.</p>
+    </footer>
+</body>
+</html>

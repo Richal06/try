@@ -1,0 +1,76 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #f2f2f2;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.buy-medicine {
+	margin-top: 50px;
+}
+
+.buy-medicine h2 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+label {
+	margin-top: 10px;
+}
+footer{
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+input[type="text"], textarea {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius:
